@@ -4,6 +4,6 @@ get '/' do
   if request.env['HTTP_PERMISO'] == 'soy-un-token-secreto'
     'Si lo logramos!'
   else
-    'sin permiso'
+    'Sin Permiso'
   end
 end
